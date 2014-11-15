@@ -11,4 +11,8 @@ require_once APP_PATH . 'Model.php';
 require_once APP_PATH . 'View.php';
 require_once APP_PATH . 'Register.php';
 
-echo '<pre>';print_r(get_required_files());
+try {
+    Bootstrap::run(new Request());
+} catch (Exception $e) {
+    echo $e->getMessage();
+}
