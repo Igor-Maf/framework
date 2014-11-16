@@ -1,8 +1,11 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+            </section>
+            <footer>
+                <p> &copy; 2014 <?php echo APP_COMPANY; ?></p>
+                <p> 
+                    Build on 
+                    <a href="https://github.com/Igor-Maf/framework"><?php echo APP_BUILD_ON; ?></a>
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>

@@ -4,7 +4,12 @@
  */
 
 class indexController extends Controller {
+    public function __construct() {
+        parent::__construct();
+    }
+    
     public function index() {
-        echo "index controller";
+        $this->_view->title = 'Paton Systems';
+        $this->_view->rendering('index', 'home');
     }
 }
